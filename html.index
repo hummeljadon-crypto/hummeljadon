@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Name – DevSecOps Engineer</title>
+    <meta name="description" content="Portfolio of a DevSecOps Engineer focused on cloud security, CI/CD, and automation." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Your Name</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="hero">
+        <h1>Hi, I’m <span class="highlight">Your Name</span></h1>
+        <p>Aspiring DevSecOps Engineer focused on cloud security, automation, and secure CI/CD.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn secondary">Get in Touch</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I’m a systems-focused engineer with a 3-year German <strong>Ausbildung in IT System Integration</strong>, combining hands-on production experience with strong theoretical foundations in networking, security, and infrastructure.
+        </p>
+        <p>
+          I’m now specializing in <strong>DevSecOps and cloud security</strong>, building secure CI/CD pipelines, automating security checks, and hardening cloud and Kubernetes environments. I’m looking for fully remote roles where I can contribute to real-world security and platform engineering.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Cloud & Infra</h3>
+            <ul>
+              <li>AWS (IAM, VPC, EC2, S3)</li>
+              <li>Terraform / IaC</li>
+              <li>Linux (Debian/Ubuntu, RHEL)</li>
+              <li>Windows Server / AD</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>DevOps & Containers</h3>
+            <ul>
+              <li>Docker & Kubernetes</li>
+              <li>CI/CD (GitHub Actions, Jenkins)</li>
+              <li>Git & GitHub workflows</li>
+              <li>Scripting (Bash, PowerShell, Python)</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Security</h3>
+            <ul>
+              <li>SAST / DAST (SonarQube, OWASP ZAP)</li>
+              <li>Container scanning (Trivy)</li>
+              <li>IaC scanning (Checkov, tfsec)</li>
+              <li>Cloud security & IAM hardening</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>Problem-solving & debugging</li>
+              <li>Documentation & runbooks</li>
+              <li>Async communication</li>
+              <li>Remote-first mindset</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <p>
+          Below are some of my key DevSecOps projects. Each repo includes a README with architecture, security controls, and how to run it.
+        </p>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Secure CI/CD Pipeline on AWS</h3>
+            <p>
+              End-to-end pipeline with GitHub Actions, SAST, container scanning, IaC scanning, and Terraform-provisioned AWS infrastructure.
+            </p>
+            <a href="https://github.com/yourusername/secure-cicd-pipeline" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+          <div class="project-card">
+            <h3>Hardened Cloud Baseline</h3>
+            <p>
+              Terraform-based AWS baseline with least-privilege IAM, secure VPC design, logging, and policy-as-code (Checkov/OPA).
+            </p>
+            <a href="https://github.com/yourusername/hardened-cloud-baseline" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+          <div class="project-card">
+            <h3>Kubernetes Security Lab</h3>
+            <p>
+              Local K8s lab with RBAC, network policies, admission controller (OPA/Gatekeeper), and CI enforcement of security policies.
+            </p>
+            <a href="https://github.com/yourusername/k8s-security-lab" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="offers">
+        <h2>What I’m Looking For</h2>
+        <p>
+          I’m seeking fully remote roles where I can grow as a DevSecOps / cloud security engineer while contributing to real products and platforms.
+        </p>
+        <ul>
+          <li><strong>Roles:</strong> Junior DevSecOps Engineer, Cloud Security Engineer, DevOps Engineer with security focus</li>
+          <li><strong>Work model:</strong> Fully remote, open to working from different countries over time</li>
+          <li><strong>Time zones:</strong> Comfortable with core overlap hours and async communication</li>
+          <li><strong>Contract type:</strong> Full-time, contract, or B2B—open to discussion</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          If you’re hiring or just want to chat about DevSecOps, cloud security, or remote work, feel free to reach out.
+        </p>
+        <ul class="contact-links">
+          <li><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">linkedin.com/in/yourusername</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Your Name. Built with GitHub Pages.</p>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
